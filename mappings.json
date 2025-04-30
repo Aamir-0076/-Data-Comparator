@@ -1,0 +1,14 @@
+{
+  "mappings": [
+    {"jsonPath": "person.personId", "table": "PERSON", "column": "PERSON_ID"},
+    {"jsonPath": "person.name.first", "table": "PERSON", "column": "FIRST_NAME"},
+    {"jsonPath": "person.name.last", "table": "PERSON", "column": "LAST_NAME"},
+    {"jsonPath": "person.dob", "table": "PERSON", "column": "DOB"},
+    {"jsonPath": "person.addresses[*].type", "table": "ADDRESS", "column": "TYPE"},
+    {"jsonPath": "person.addresses[*].street", "table": "ADDRESS", "column": "STREET"},
+    {"jsonPath": "person.addresses[*].city", "table": "ADDRESS", "column": "CITY"},
+    {"jsonPath": "person.addresses[*].postcode", "table": "ADDRESS", "column": "POSTCODE"},
+    {"jsonPath": "person.phones[*].type", "table": "PHONE", "column": "TYPE"},
+    {"jsonPath": "person.phones[*].number", "table": "PHONE", "column": "NUMBER"}
+  ]
+}

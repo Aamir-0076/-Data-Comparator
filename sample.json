@@ -1,0 +1,34 @@
+{
+  "person": {
+    "personId": "123",
+    "name": {
+      "first": "John",
+      "last": "Doe"
+    },
+    "dob": "1980-05-20",
+    "addresses": [
+      {
+        "type": "Home",
+        "street": "123 Maple Street",
+        "city": "Springfield",
+        "postcode": "SP1 2AB"
+      },
+      {
+        "type": "Work",
+        "street": "456 Oak Road",
+        "city": "Metropolis",
+        "postcode": "MT4 9XY"
+      }
+    ],
+    "phones": [
+      {
+        "type": "Mobile",
+        "number": "07700900000"
+      },
+      {
+        "type": "Landline",
+        "number": "02079460000"
+      }
+    ]
+  }
+}
